@@ -1,0 +1,139 @@
+@CHARSET "UTF-8";
+
+.topnav {
+	overflow: hidden;
+	background-color: #ec7e23;
+	margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #1f62ab;
+	color: white;
+}
+
+.topnav a:active {
+	background-color: #1a5493;
+	color: ebebeb;
+}
+
+.topnav a.active {
+	background-color: #1a5493;
+	color: white;
+}
+
+
+.imgLogo > img{
+	height: -webkit-fill-available;
+    border-radius: 3px;
+}
+
+.imgLogo{
+	height: 46px;
+    margin: 1.2em;
+}
+
+
+.fieldsetCriteria{
+	border-style: solid;
+    border-width: 2px;
+}
+
+.legendFieldset{
+	border-bottom: 0px;
+    width: initial;
+    margin-left: 1em;
+    font-size: 23px;
+    color: #717171;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.fieldsetCriteria > div.form-group{
+	padding-left: 1em;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+/* .preloader { */
+/*   width: 70px; */
+/*   height: 70px; */
+/*   border: 10px solid #eee; */
+/*   border-top: 10px solid #666; */
+/*   border-radius: 50%; */
+/*   animation-name: girar; */
+/*   animation-duration: 2s; */
+/*   animation-iteration-count: infinite; */
+/*   animation-timing-function: linear; */
+/* } */
+/* @keyframes girar { */
+/*   from { */
+/*     transform: rotate(0deg); */
+/*   } */
+/*   to { */
+/*     transform: rotate(360deg); */
+/*   } */
+/* } */
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #ec7e23; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    z-index: 1000;
+    display:none;
+    z-index: 1;
+    margin-left:43%;
+    position:relative;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

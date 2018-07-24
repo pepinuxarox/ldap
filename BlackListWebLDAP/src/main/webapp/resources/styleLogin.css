@@ -1,0 +1,58 @@
+@CHARSET "ISO-8859-1";
+.error {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+.msg {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+
+#login-box {
+	width: 300px;
+	background: #f3f3f3;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border: 1px solid #000;
+	float: left;
+	margin: 60px 40px 0 100px;
+	padding-left: 20px;
+}
+
+#login-box1 {
+	background: #aaaaaa;
+}
+
+#inicio {
+	width: 600px;
+	padding: 300px;
+	margin: 100px auto;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border: 1px solid #000;
+}
+
+#send {
+	background-color: #1a5493;
+	border: none;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	float: none;
+	margin: 40px 10px 0 80px;
+	border-radius: 15px;
+}
